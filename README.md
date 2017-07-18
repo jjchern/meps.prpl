@@ -1,0 +1,19 @@
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+About `meps.prpl`
+=================
+
+The goal of `meps.prpl` is to wrap the Person Round Plan (`prpl`) Public Use Files from the Medical Expenditure Panel Survey (`meps`) Household Component (HC) in an R data package.
+
+For more information about the MEPS-PRPL files, see [the related infromation from AHRQ](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=1%2CHousehold+Full+Year+File&buttonYearandDataType=Search&cboPufNumber=All&SearchTitle=Person+Round+Plan).
+
+Installation
+============
+
+``` r
+# install.packages("devtools")
+devtools::install_github("jjchern/meps.prpl")
+
+# To uninstall the package, use:
+# remove.packages("meps.prpl")
+```
