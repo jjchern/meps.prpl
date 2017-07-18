@@ -7,9 +7,11 @@ About `meps.prpl`
 
 The goal of `meps.prpl` is to wrap the Person Round Plan (`prpl`) Public Use Files from the Medical Expenditure Panel Survey (`meps`) Household Component (HC) in an R data package. All variable labels and value labels are included.
 
-Currently the package includes data from 2011-2014.
+For more information about the MEPS-PRPL files, see [the AHRQ webpages](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=1%2CHousehold+Full+Year+File&buttonYearandDataType=Search&cboPufNumber=All&SearchTitle=Person+Round+Plan), or the example code from the [`HHS-AHRQ/MEPS` repo](https://github.com/HHS-AHRQ/MEPS) by [`@e-mitchell`](https://github.com/e-mitchell).
 
-For more information about the MEPS-PRPL files, see [the AHRQ webpages](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=1%2CHousehold+Full+Year+File&buttonYearandDataType=Search&cboPufNumber=All&SearchTitle=Person+Round+Plan).
+For another attempt of downloading the MEPS data, see [the `ajdamico/asdfree` repo](https://github.com/ajdamico/asdfree/tree/master/Medical%20Expenditure%20Panel%20Survey) by [`@ajdamico`](https://github.com/ajdamico).
+
+Currently the package includes data from 2011-2014. The rest of the files (1996-2010) will be packaged soon.
 
 Installation
 ============
