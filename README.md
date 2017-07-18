@@ -5,7 +5,9 @@ About `meps.prpl`
 
 [![Travis-CI Build Status](https://travis-ci.org/jjchern/meps.prpl.svg?branch=master)](https://travis-ci.org/jjchern/meps.prpl) [![AppVeyor Build Status](https://ci.appveyor.com/api/projects/status/github/jjchern/meps.prpl?branch=master&svg=true)](https://ci.appveyor.com/project/jjchern/meps.prpl) [![CRAN\_Status\_Badge](http://www.r-pkg.org/badges/version/meps.prpl)](https://cran.r-project.org/package=meps.prpl)
 
-The goal of `meps.prpl` is to wrap the Person Round Plan (`prpl`) Public Use Files from the Medical Expenditure Panel Survey (`meps`) Household Component (HC) in an R data package.
+The goal of `meps.prpl` is to wrap the Person Round Plan (`prpl`) Public Use Files from the Medical Expenditure Panel Survey (`meps`) Household Component (HC) in an R data package. All variable labels and value labels are included.
+
+Currently the package includes data from 2011-2014.
 
 For more information about the MEPS-PRPL files, see [the AHRQ webpages](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=1%2CHousehold+Full+Year+File&buttonYearandDataType=Search&cboPufNumber=All&SearchTitle=Person+Round+Plan).
 
@@ -26,7 +28,7 @@ Usage
 ``` r
 # Load tibble for better printout
 library(tibble)
-#> Warning: package 'tibble' was built under R version 3.3.2
+
 meps.prpl::f2014
 #> # A tibble: 57,710 x 68
 #>                         epcpidx dupersid phldridx     estbidx

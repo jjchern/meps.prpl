@@ -8,7 +8,9 @@ output: github_document
 knitr::opts_chunk$set(
   collapse = TRUE,
   comment = "#>",
-  fig.path = "README-"
+  fig.path = "README-",
+  message = FALSE,
+  warning = FALSE
 )
 ```
 
@@ -20,7 +22,9 @@ knitr::opts_chunk$set(
 
 The goal of `meps.prpl` is to wrap the Person Round Plan (`prpl`) Public Use Files 
 from the Medical Expenditure Panel Survey (`meps`) Household Component (HC) in an
-R data package.
+R data package. All variable labels and value labels are included.
+
+Currently the package includes data from 2011-2014.
 
 For more information about the MEPS-PRPL files, see [the AHRQ webpages](https://meps.ahrq.gov/mepsweb/data_stats/download_data_files_results.jsp?cboDataYear=All&cboDataTypeY=1%2CHousehold+Full+Year+File&buttonYearandDataType=Search&cboPufNumber=All&SearchTitle=Person+Round+Plan).
 
@@ -39,6 +43,7 @@ devtools::install_github("jjchern/meps.prpl")
 ```{r}
 # Load tibble for better printout
 library(tibble)
+
 meps.prpl::f2014
 
 meps.prpl::f2013
